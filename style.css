@@ -390,6 +390,11 @@ a {
   background-color: #cfc8e7;
   color: #582eff;
   font-weight: 600;
+  cursor: pointer;
+  transition: background-color var(--transition-duration);
+}
+.form__button:hover {
+  background-color: #b2a5d5;
 }
 @media screen and (max-width: 768px) {
   .form__img {
